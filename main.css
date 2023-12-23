@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 header h1 {
     font-family: 'Roboto', sans-serif;
 }
@@ -32,6 +36,7 @@ header > .container {
 nav {
     background-color: #575fcf;
     padding: 16px 0;
+    display: none;
 }
 
 nav li {
@@ -49,12 +54,14 @@ nav li a {
 }
 
 .menu-hamburguer {
-    width: 24px; /* Decreased width */
+    width: 24px; 
 }
 
 .menu-hamburguer span {
     height: 2px;
-    width: 40px; /* Decreased width */
+    width: 40px; 
     background-color: #fff;
     display: block;
-    margin-bottom: 4px; }/* Decreased margin */
+    margin-bottom: 4px;
+    cursor: pointer;
+}
